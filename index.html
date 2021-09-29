@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design a Halloween House</title>
+    <link rel="stylesheet" href="css/user-form.css">
+</head>
+<body>
+    <header>
+        <h1>Spooky Scary Halloween House Builder!</h1>
+        <p>Design your own Halloween House! The spookier the better!</p>
+    </header>
+    <main>
+        <div id="contact-box">
+			<form>				
+				<br><br>
+				<label for="halloween-house-name">Name Your Halloween House:</label> <br>
+				<input type="text" name="halloween-house-name" value="" placeholder="ex: Mysterious Mansion, Spooky Sam's Scary Site"><br>
+                <label for="halloween-house-location">Where is your Halloween House?</label><br>                           
+				<select id="spooky-locations" name="halloween-house-location" value="select"><br>
+                    <option value="space">Space</option>
+                    <option value="spooky-forest">Spooky Forest</option>
+                    <option value="spooky-wheat-field">Spooky Wheat Field</option>
+                    <option value="spooky-suburbs">Spooky Suburbs</option>
+                    <option value="spooky-city">Spooky City</option>
+                    <option value="spooky-desert">Spooky Desert</option>
+                </select> <br>
+				<label for="halloween-house-type">Halloween House Type</label><br>
+                <select id="halloween-house-types" name="halloween-house-type" value="select"><br>
+                    <option value="victorian">Victorian</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="edwardian">Edwardian</option>
+                    <option value="modern">Modern</option>
+                    <option value="eighties">80's</option>
+                    <option value="fifties">50's</option>
+                    <option value="fifties">Castle</option>
+                    <option value="fifties">Mansion</option>
+                </select> <br>
+				<label for="number-of-ghosts">How many ghosts are in the house?</label><br>
+                <input type="number" name="number-of-ghosts" value="0"><br>	
+                <label for="description">
+				Describe what else is in or around the house: (max 300 characters):
+                </label><br>						
+				<textarea name="comments"> 
+				</textarea><br>
+				<input type="submit" value="Submit">				
+			</form>
+		</div>
+    </main>
+</body>
+</html>

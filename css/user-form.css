@@ -1,0 +1,36 @@
+html
+{
+    background-image: url("../img/spooky-house.gif");    
+    background-repeat: no-repeat;		
+	background-position: top;	
+	background-size: cover;
+	height: 100vh;
+    color: orangered;        
+}
+#contact-box
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+form
+{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h1
+{
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+}
+label
+{
+    font-size: 25px;
+}
